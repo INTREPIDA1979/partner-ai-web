@@ -1,0 +1,11 @@
+streamlit
+langchain
+langchain-community
+langchain-core
+langchain-google-vertexai
+langchain-google-genai==1.0.10
+langchain-text-splitters
+audio_recorder_streamlit
+google-cloud-speech
+google.cloud.logging
+google-cloud-texttospeech
