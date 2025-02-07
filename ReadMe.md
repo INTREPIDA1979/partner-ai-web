@@ -9,15 +9,15 @@
     - VertexAIユーザー
     - ディスカバリーエンジンユーザー    
   - Cloud Storageにて、以下のバケットとフォルダを用意しておく。
-    ‐ bucket : partner-ai
-    - folder : diary
+    - バケット : partner-ai
+    - フォルダ : diary
   - Agent Builderにて、以下のAgentを作成し、データストアのID（例：search-diary_1234567890xxx_gcs_store）を取得しておく。
     - データストア
       ‐ データソース：cloud storage
       - データの種類：非構造化ドキュメント（PDF、HTML、TXTなど）
-      ‐ 周期の頻度：定期的（1日ごと）
+      - 周期の頻度：定期的（1日ごと）
       - インポートするフォルダ：partner-ai/diary
-      ‐ データコネクタのロケーション：global
+      - データコネクタのロケーション：global
       - データコネクタ名：search_diary
     - アプリ
       ‐ アプリの種類：ドキュメント検索
