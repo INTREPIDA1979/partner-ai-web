@@ -31,9 +31,9 @@
 ## 設定値の更新
 - Githubからダウンロードしたプロジェクト（partner-ai-web）の以下のファイルを修正する。
   - src/pages/search_diary.py
-  - 修正箇所：14行目のdatastore_id
-  - 修正内容1：{project_name} → 対象のプロジェクト名、
-  - 修正内容2：{datastore_id} → Agent Builder作成時に取得したデータスタのID
+  - 修正箇所：14行目,15行目
+  - 修正内容1：{project_id} → 対象のプロジェクト名、
+  - 修正内容2：{store_id} → Agent Builder作成時に取得したデータスタのID
 
 ## Webアプリ環境の構築
 以下のコマンドを実行する。
