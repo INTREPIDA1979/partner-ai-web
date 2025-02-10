@@ -11,8 +11,8 @@ import vertexai.preview.generative_models as generative_models
 from vertexai.generative_models import GenerativeModel, Tool
 
 # initial set
-project_id = "{project_id}"
-store_id = "{store_id}"
+project_id = "uragasumi25-llm-app-pj"
+store_id = "search-diary_1738666716943_gcs_store"
 datastore_id = "projects/" + project_id + "/locations/global/collections/default_collection/dataStores/" + store_id
 
 system_prompt = f"""あなたは優秀なAIエージェントです。ユーザーからの質問に分かりやすく回答してください。"""
