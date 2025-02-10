@@ -38,8 +38,10 @@
   - 修正内容1：{project_id} → 対象のプロジェクト名、
   - 修正内容2：{store_id} → Agent Builder作成時に取得したデータスタのID
 
-## Webアプリ環境の構築 ※SrcretManagerのversionは適宜修正してください。
-以下のコマンドを実行する。
+## Webアプリ環境の構築
+Githubからダウンロードしたフォルダ（partner-ai-web）へ移動し、以下のコマンドを実行する。<br>
+※ PROJECT_ID、REGION、SERVICE_ACCONT_NAMEは適宜修正してください。<br>
+※ SrcretManagerのversionは適宜修正してください。
 ```
 #/bin/sh
 # set environment valiables

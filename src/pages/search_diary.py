@@ -87,7 +87,6 @@ def transcribe_audio_to_text(audio_bytes):
 
     for result in response.results:
         reply += result.alternatives[0].transcript
-#        logger.warning(f"Transcript: {result.alternatives[0].transcript}")
 
     return reply
 
