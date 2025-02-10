@@ -39,7 +39,7 @@
   - 修正内容2：{store_id} → Agent Builder作成時に取得したデータスタのID
 
 ## Webアプリ環境の構築
-Githubからダウンロードしたフォルダ（partner-ai-web）へ移動し、以下のコマンドを実行する。<br>
+以下のコマンドを実行する。<br>
 ※ PROJECT_ID、REGION、SERVICE_ACCONT_NAMEは適宜修正してください。<br>
 ※ SrcretManagerのversionは適宜修正してください。
 ```
