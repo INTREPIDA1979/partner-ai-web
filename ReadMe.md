@@ -25,6 +25,9 @@
       - 会社名：partner-ai
       - アプリのロケーション：global
       - データストア：search_diary
+  - Secret Managerにて、以下の値を登録しておく。
+    - GOOGLE_API_KEY : {your Google API Key}
+    　※ Vertex AIを直接つなぐ時は不要。
   - GitHubから以下のソースコードをダウンロードしておく。
     - https://github.com/INTREPIDA1979/partner-ai-web
 
@@ -61,7 +64,8 @@ gcloud services enable --project=$PROJECT_ID run.googleapis.com \
  generativelanguage.googleapis.com \
  speech.googleapis.com \
  storage.googleapis.com \
- texttospeech.googleapis.com
+ texttospeech.googleapis.com \
+ secretmanager.googleapis.com
 
 # Artifacts repositories 作成(Webapp)
 gcloud artifacts repositories create $AR_REPO \
