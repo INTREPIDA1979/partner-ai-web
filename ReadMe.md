@@ -48,7 +48,7 @@ REGION={REGION}
 AR_REPO=partner-ai-web
 SERVICE_NAME=partner-ai-web
 SA_NAME={SERVICE_ACCONT_NAME}
-GOOGLE_API_KEY={GOOGLE_API_KEY}
+GOOGLE_API_KEY=`gcloud secrets versions access 1 --secret="GOOGLE_API_KEY"`
 
 # プロジェクト設定の変更
 gcloud config set project ${PROJECT_ID}
